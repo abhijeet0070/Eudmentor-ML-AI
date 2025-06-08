@@ -89,13 +89,13 @@ def generate_pdf(student_name, report_text):
     pdf_output.seek(0)
     return pdf_output
 
-def main():
-    icon_path = r"G:\Eductor\download.png"
-    col1, col2 = st.columns([1, 8])
-    with col1:
-        st.image(icon_path, width=50)
-    with col2:
-        st.title("EduMentor - Student Risk Predictor")
+# def main():
+#     icon_path = r"G:\Eductor\download.png"
+#     col1, col2 = st.columns([1, 8])
+#     with col1:
+#         st.image(icon_path, width=50)
+#     with col2:
+#         st.title("EduMentor - Student Risk Predictor")
 
     df = load_data()
     reg_model, clf_model, encoders = load_models()
