@@ -1,0 +1,6 @@
+[submodule "EduMentorML"]
+	path = EduMentorML
+	url = https://github.com/abhijeet0070/EduMentorML.git
+[submodule "Eudmentor-ML-AI"]
+	path = Eudmentor-ML-AI
+	url = https://github.com/abhijeet0070/Eudmentor-ML-AI.git
