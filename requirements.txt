@@ -6,3 +6,5 @@ joblib
 fpdf
 this is the change 
 im doing in the master
+juyfoifoyig
+;ligitfoiytci
